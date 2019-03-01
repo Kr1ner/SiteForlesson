@@ -1,0 +1,147 @@
+/*CSS Document*/
+
+@font-face
+{
+	src: url("../fonts/nino_mtavruli_bold.ttf");
+    font-family: ninomt;
+}
+
+@font-face
+{
+	src:url("../fonts/agroteskn.ttf");
+	font-family: aliteratura;
+}
+
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	background-image: url("../images/geonature.jpg");
+	background-size: 130%;
+}
+
+#navbar
+{
+	height: 7vw;
+	width: cover;
+	background-color: #2E86C1;
+}
+
+.logo
+{
+	float: left;
+	height: 7vw;
+	width: auto;
+}
+
+.navli
+{
+  list-style: none;
+}
+
+.nava
+{
+	text-decoration: none;
+	color: #F7BA0C;
+	float: left;
+    margin-left: 50px;
+    margin-top: 3.5vw; 
+    font-family: ninomt;
+}
+
+.nava:hover
+{
+	color:#EC1010;
+}
+
+.navi
+{
+	text-decoration: none;
+	color: #4A1A78;
+	float: left;
+    margin-left: 50px;
+    margin-top: 30px; 
+    font-family: ninomt;
+}
+
+.navi:hover
+{
+	color:#EC1010;
+}
+
+.logo
+{
+	height: 7vw;
+	width: auto;
+}
+
+#page
+{
+	height: 60vw;
+	width: 70vw;
+	background-color: #DFE0EC;
+	margin: 0 auto;
+}
+
+.headers
+{
+	margin-left: 30vw;
+	color: red;
+    font-family: aliteratura;
+}
+
+.map
+{
+	height: auto;
+	width: 50vw;
+}
+
+#page1
+{
+	height: 70vw;
+	width: 70vw;
+	background-color: #DFE0EC;
+	margin: 0 auto;
+}
+
+.damwerloba
+{
+	font-size: 20px;
+}
+
+#nat_slider
+{
+	height: 360px;
+	width: 640px;
+	background-image: url("../images/slide1.jpg");
+	background-size: 100%;
+    overflow:hidden;
+    animation: slide 12s infinite;
+}
+
+@keyframes slide
+{
+	30%{  background-image: url("../images/slide2.jpg");}
+	50%{background-image: url("../images/slide3.jpg");  }
+	70%{ background-image: url("../images/slide4.jpg"); }
+	100%{background-image: url("../images/slide5.jpg");  }
+}
+
+#page2
+{
+	height: 65vw;
+	width: 70vw;
+	background-color: #DFE0EC;
+	margin: 0 auto;
+}
+
+.headers1
+{
+	margin-left: 30vw;
+	color: darkgreen;
+    font-family: aliteratura;
+}
